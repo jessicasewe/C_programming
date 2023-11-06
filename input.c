@@ -2,18 +2,13 @@
 
 int main()
 {
-    // unsigned int c = 78;
-    // printf("%d", c);
-
-    // int first = 8;
-    // float second = 3;
-
-    // float total = first / second;
-    // printf("%f", total);
+    //specify the number characters it can take
     char name[25];
-
+    
+    //using fgets to accept spaces and characters after the space 
     printf("whats your name: ");
     fgets(name, 25, stdin);
+
 
     int age;
     printf("How old are you? ");
